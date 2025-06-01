@@ -21,9 +21,15 @@ const PerformancePanel = () => {
   }, []);
 
   return (
-    <div className="bg-white p-4 rounded shadow mb-4">
-      <h2 className="text-xl font-semibold mb-2">Performance</h2>
-      <p>FPS: <strong>{fps}</strong></p>
+    <div
+      className="rounded-2xl p-6 mb-4 shadow-lg text-gray-900"
+      style={{
+        background: "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+        boxShadow: "0 8px 20px rgba(254, 214, 227, 0.5)",
+      }}
+    >
+      <h2 className="text-2xl font-semibold mb-3">Performance</h2>
+      <p className="text-lg">FPS: <strong>{fps}</strong></p>
     </div>
   );
 };
