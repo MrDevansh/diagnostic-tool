@@ -4,7 +4,6 @@ import RenderTracker from "./components/RenderTracker";
 import ConsoleViewer from "./components/ConsoleViewer";
 import DownloadLogs from "./components/DownloadLogs";
 import APIRequestLogger from "./components/APIRequestLogger";
-import SimpleLogger from "./components/SimpleLogger";
 
 
 function App() {
